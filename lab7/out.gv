@@ -1,0 +1,237 @@
+digraph G{
+{780237624[label=" Spec "]} -> {205797316[label=" Rules "]}
+{205797316[label=" Rules "]} -> {1128032093[label=" Rule "]}
+{205797316[label=" Rules "]} -> {1066516207[label=" Rules "]}
+{1128032093[label=" Rule "]} -> {443308702[label=" AxiomTag "]}
+{1128032093[label=" Rule "]} -> {935044096[label=" NONTERMINAL "]}
+{1128032093[label=" Rule "]} -> {396180261[label=" Alternatives "]}
+{1066516207[label=" Rules "]} -> {625576447[label=" Rule "]}
+{1066516207[label=" Rules "]} -> {1560911714[label=" Rules "]}
+{443308702[label=" AxiomTag "]} -> {939047783[label=" TAG "]}
+{935044096[label=" NONTERMINAL "]} -> {1237514926[label=" S "][shape = box]}
+{396180261[label=" Alternatives "]} -> {548246552[label=" Alternative "]}
+{396180261[label=" Alternatives "]} -> {835648992[label=" Alternatives "]}
+{939047783[label=" TAG "]} -> {1134517053[label=" * "][shape = box]}
+{548246552[label=" Alternative "]} -> {492228202[label=" LP "]}
+{548246552[label=" Alternative "]} -> {1368884364[label=" Symbols "]}
+{548246552[label=" Alternative "]} -> {401625763[label=" RP "]}
+{835648992[label=" Alternatives "]} -> {772777427[label=" eps "]}
+{492228202[label=" LP "]} -> {83954662[label=" ( "][shape = box]}
+{1368884364[label=" Symbols "]} -> {1751075886[label=" Symbol "]}
+{1368884364[label=" Symbols "]} -> {2108649164[label=" Symbols "]}
+{401625763[label=" RP "]} -> {777874839[label=" ) "][shape = box]}
+{1751075886[label=" Symbol "]} -> {596512129[label=" NONTERMINAL "]}
+{2108649164[label=" Symbols "]} -> {824318946[label=" eps "]}
+{596512129[label=" NONTERMINAL "]} -> {930990596[label=" R` "][shape = box]}
+{625576447[label=" Rule "]} -> {1921595561[label=" AxiomTag "]}
+{625576447[label=" Rule "]} -> {565760380[label=" NONTERMINAL "]}
+{625576447[label=" Rule "]} -> {6566818[label=" Alternatives "]}
+{1560911714[label=" Rules "]} -> {1494279232[label=" Rule "]}
+{1560911714[label=" Rules "]} -> {1650967483[label=" Rules "]}
+{1921595561[label=" AxiomTag "]} -> {87285178[label=" eps "]}
+{565760380[label=" NONTERMINAL "]} -> {610998173[label=" R` "][shape = box]}
+{6566818[label=" Alternatives "]} -> {2047329716[label=" Alternative "]}
+{6566818[label=" Alternatives "]} -> {648129364[label=" Alternatives "]}
+{2047329716[label=" Alternative "]} -> {1029991479[label=" LP "]}
+{2047329716[label=" Alternative "]} -> {1104106489[label=" Symbols "]}
+{2047329716[label=" Alternative "]} -> {94438417[label=" RP "]}
+{648129364[label=" Alternatives "]} -> {787604730[label=" Alternative "]}
+{648129364[label=" Alternatives "]} -> {812265671[label=" Alternatives "]}
+{1029991479[label=" LP "]} -> {193064360[label=" ( "][shape = box]}
+{1104106489[label=" Symbols "]} -> {109961541[label=" Symbol "]}
+{1104106489[label=" Symbols "]} -> {670700378[label=" Symbols "]}
+{94438417[label=" RP "]} -> {1190654826[label=" ) "][shape = box]}
+{109961541[label=" Symbol "]} -> {1109371569[label=" NONTERMINAL "]}
+{670700378[label=" Symbols "]} -> {728890494[label=" Symbol "]}
+{670700378[label=" Symbols "]} -> {1558600329[label=" Symbols "]}
+{1109371569[label=" NONTERMINAL "]} -> {636718812[label=" R "][shape = box]}
+{728890494[label=" Symbol "]} -> {445051633[label=" NONTERMINAL "]}
+{1558600329[label=" Symbols "]} -> {1051754451[label=" eps "]}
+{445051633[label=" NONTERMINAL "]} -> {1349277854[label=" R` "][shape = box]}
+{787604730[label=" Alternative "]} -> {1775282465[label=" LP "]}
+{787604730[label=" Alternative "]} -> {1147985808[label=" Symbols "]}
+{787604730[label=" Alternative "]} -> {2040495657[label=" RP "]}
+{812265671[label=" Alternatives "]} -> {1267032364[label=" eps "]}
+{1775282465[label=" LP "]} -> {661672156[label=" ( "][shape = box]}
+{1147985808[label=" Symbols "]} -> {96639997[label=" eps "]}
+{2040495657[label=" RP "]} -> {128893786[label=" ) "][shape = box]}
+{1494279232[label=" Rule "]} -> {1732398722[label=" AxiomTag "]}
+{1494279232[label=" Rule "]} -> {1108411398[label=" NONTERMINAL "]}
+{1494279232[label=" Rule "]} -> {1394438858[label=" Alternatives "]}
+{1650967483[label=" Rules "]} -> {584634336[label=" Rule "]}
+{1650967483[label=" Rules "]} -> {1469821799[label=" Rules "]}
+{1732398722[label=" AxiomTag "]} -> {501263526[label=" eps "]}
+{1108411398[label=" NONTERMINAL "]} -> {626202354[label=" R "][shape = box]}
+{1394438858[label=" Alternatives "]} -> {1099983479[label=" Alternative "]}
+{1394438858[label=" Alternatives "]} -> {1268447657[label=" Alternatives "]}
+{1099983479[label=" Alternative "]} -> {1401420256[label=" LP "]}
+{1099983479[label=" Alternative "]} -> {1851691492[label=" Symbols "]}
+{1099983479[label=" Alternative "]} -> {752848266[label=" RP "]}
+{1268447657[label=" Alternatives "]} -> {815033865[label=" eps "]}
+{1401420256[label=" LP "]} -> {1555093762[label=" ( "][shape = box]}
+{1851691492[label=" Symbols "]} -> {1190900417[label=" Symbol "]}
+{1851691492[label=" Symbols "]} -> {379110473[label=" Symbols "]}
+{752848266[label=" RP "]} -> {99550389[label=" ) "][shape = box]}
+{1190900417[label=" Symbol "]} -> {1598924227[label=" NONTERMINAL "]}
+{379110473[label=" Symbols "]} -> {1144748369[label=" Symbol "]}
+{379110473[label=" Symbols "]} -> {340870931[label=" Symbols "]}
+{1598924227[label=" NONTERMINAL "]} -> {1768305536[label=" T "][shape = box]}
+{1144748369[label=" Symbol "]} -> {1530388690[label=" TERMINAL "]}
+{340870931[label=" Symbols "]} -> {1146743572[label=" Symbol "]}
+{340870931[label=" Symbols "]} -> {1512981843[label=" Symbols "]}
+{1530388690[label=" TERMINAL "]} -> {42768293[label="\"N\""][shape = box]}
+{1146743572[label=" Symbol "]} -> {1717159510[label=" NONTERMINAL "]}
+{1512981843[label=" Symbols "]} -> {1834188994[label=" eps "]}
+{1717159510[label=" NONTERMINAL "]} -> {1174361318[label=" A` "][shape = box]}
+{584634336[label=" Rule "]} -> {589873731[label=" AxiomTag "]}
+{584634336[label=" Rule "]} -> {200006406[label=" NONTERMINAL "]}
+{584634336[label=" Rule "]} -> {2052001577[label=" Alternatives "]}
+{1469821799[label=" Rules "]} -> {1160264930[label=" Rule "]}
+{1469821799[label=" Rules "]} -> {544724190[label=" Rules "]}
+{589873731[label=" AxiomTag "]} -> {1972439101[label=" eps "]}
+{200006406[label=" NONTERMINAL "]} -> {2007328737[label=" T "][shape = box]}
+{2052001577[label=" Alternatives "]} -> {1936628443[label=" Alternative "]}
+{2052001577[label=" Alternatives "]} -> {1830908236[label=" Alternatives "]}
+{1936628443[label=" Alternative "]} -> {277630005[label=" LP "]}
+{1936628443[label=" Alternative "]} -> {1288354730[label=" Symbols "]}
+{1936628443[label=" Alternative "]} -> {1274370218[label=" RP "]}
+{1830908236[label=" Alternatives "]} -> {758705033[label=" Alternative "]}
+{1830908236[label=" Alternatives "]} -> {1604839423[label=" Alternatives "]}
+{277630005[label=" LP "]} -> {1177096266[label=" ( "][shape = box]}
+{1288354730[label=" Symbols "]} -> {670576685[label=" Symbol "]}
+{1288354730[label=" Symbols "]} -> {1299641336[label=" Symbols "]}
+{1274370218[label=" RP "]} -> {764308918[label=" ) "][shape = box]}
+{670576685[label=" Symbol "]} -> {598446861[label=" TERMINAL "]}
+{1299641336[label=" Symbols "]} -> {1161082381[label=" eps "]}
+{598446861[label=" TERMINAL "]} -> {1067938912[label="\"*\""][shape = box]}
+{758705033[label=" Alternative "]} -> {1637506559[label=" LP "]}
+{758705033[label=" Alternative "]} -> {517380410[label=" Symbols "]}
+{758705033[label=" Alternative "]} -> {2117255219[label=" RP "]}
+{1604839423[label=" Alternatives "]} -> {2058534881[label=" eps "]}
+{1637506559[label=" LP "]} -> {1232367853[label=" ( "][shape = box]}
+{517380410[label=" Symbols "]} -> {1673605040[label=" eps "]}
+{2117255219[label=" RP "]} -> {186276003[label=" ) "][shape = box]}
+{1160264930[label=" Rule "]} -> {1681433494[label=" AxiomTag "]}
+{1160264930[label=" Rule "]} -> {237061348[label=" NONTERMINAL "]}
+{1160264930[label=" Rule "]} -> {1685538367[label=" Alternatives "]}
+{544724190[label=" Rules "]} -> {1030870354[label=" Rule "]}
+{544724190[label=" Rules "]} -> {485815673[label=" Rules "]}
+{1681433494[label=" AxiomTag "]} -> {410424423[label=" eps "]}
+{237061348[label=" NONTERMINAL "]} -> {1190035432[label=" A` "][shape = box]}
+{1685538367[label=" Alternatives "]} -> {1963387170[label=" Alternative "]}
+{1685538367[label=" Alternatives "]} -> {1323468230[label=" Alternatives "]}
+{1963387170[label=" Alternative "]} -> {1645995473[label=" LP "]}
+{1963387170[label=" Alternative "]} -> {1463801669[label=" Symbols "]}
+{1963387170[label=" Alternative "]} -> {355629945[label=" RP "]}
+{1323468230[label=" Alternatives "]} -> {1327763628[label=" Alternative "]}
+{1323468230[label=" Alternatives "]} -> {1915503092[label=" Alternatives "]}
+{1645995473[label=" LP "]} -> {1535128843[label=" ( "][shape = box]}
+{1463801669[label=" Symbols "]} -> {1567581361[label=" Symbol "]}
+{1463801669[label=" Symbols "]} -> {849460928[label=" Symbols "]}
+{355629945[label=" RP "]} -> {580024961[label=" ) "][shape = box]}
+{1567581361[label=" Symbol "]} -> {2027961269[label=" NONTERMINAL "]}
+{849460928[label=" Symbols "]} -> {1586270964[label=" Symbol "]}
+{849460928[label=" Symbols "]} -> {1642360923[label=" Symbols "]}
+{2027961269[label=" NONTERMINAL "]} -> {1343441044[label=" A "][shape = box]}
+{1586270964[label=" Symbol "]} -> {693632176[label=" NONTERMINAL "]}
+{1642360923[label=" Symbols "]} -> {326549596[label=" eps "]}
+{693632176[label=" NONTERMINAL "]} -> {1364335809[label=" A` "][shape = box]}
+{1327763628[label=" Alternative "]} -> {458209687[label=" LP "]}
+{1327763628[label=" Alternative "]} -> {233530418[label=" Symbols "]}
+{1327763628[label=" Alternative "]} -> {683287027[label=" RP "]}
+{1915503092[label=" Alternatives "]} -> {1766822961[label=" eps "]}
+{458209687[label=" LP "]} -> {254413710[label=" ( "][shape = box]}
+{233530418[label=" Symbols "]} -> {1496724653[label=" eps "]}
+{683287027[label=" RP "]} -> {553264065[label=" ) "][shape = box]}
+{1030870354[label=" Rule "]} -> {897697267[label=" AxiomTag "]}
+{1030870354[label=" Rule "]} -> {1789447862[label=" NONTERMINAL "]}
+{1030870354[label=" Rule "]} -> {38997010[label=" Alternatives "]}
+{485815673[label=" Rules "]} -> {1942406066[label=" Rule "]}
+{485815673[label=" Rules "]} -> {1213415012[label=" Rules "]}
+{897697267[label=" AxiomTag "]} -> {1688376486[label=" eps "]}
+{1789447862[label=" NONTERMINAL "]} -> {2114664380[label=" A "][shape = box]}
+{38997010[label=" Alternatives "]} -> {999661724[label=" Alternative "]}
+{38997010[label=" Alternatives "]} -> {1793329556[label=" Alternatives "]}
+{999661724[label=" Alternative "]} -> {445884362[label=" LP "]}
+{999661724[label=" Alternative "]} -> {1031980531[label=" Symbols "]}
+{999661724[label=" Alternative "]} -> {721748895[label=" RP "]}
+{1793329556[label=" Alternatives "]} -> {1642534850[label=" eps "]}
+{445884362[label=" LP "]} -> {1724731843[label=" ( "][shape = box]}
+{1031980531[label=" Symbols "]} -> {1305193908[label=" Symbol "]}
+{1031980531[label=" Symbols "]} -> {1313953385[label=" Symbols "]}
+{721748895[label=" RP "]} -> {399573350[label=" ) "][shape = box]}
+{1305193908[label=" Symbol "]} -> {463345942[label=" TERMINAL "]}
+{1313953385[label=" Symbols "]} -> {195600860[label=" Symbol "]}
+{1313953385[label=" Symbols "]} -> {1334729950[label=" Symbols "]}
+{463345942[label=" TERMINAL "]} -> {1347137144[label="\"(\""][shape = box]}
+{195600860[label=" Symbol "]} -> {997608398[label=" NONTERMINAL "]}
+{1334729950[label=" Symbols "]} -> {1973336893[label=" Symbol "]}
+{1334729950[label=" Symbols "]} -> {1212899836[label=" Symbols "]}
+{997608398[label=" NONTERMINAL "]} -> {1174290147[label=" S` "][shape = box]}
+{1973336893[label=" Symbol "]} -> {1289696681[label=" TERMINAL "]}
+{1212899836[label=" Symbols "]} -> {1285044316[label=" eps "]}
+{1289696681[label=" TERMINAL "]} -> {1607460018[label="\")\""][shape = box]}
+{1942406066[label=" Rule "]} -> {1811075214[label=" AxiomTag "]}
+{1942406066[label=" Rule "]} -> {1588970020[label=" NONTERMINAL "]}
+{1942406066[label=" Rule "]} -> {1407343478[label=" Alternatives "]}
+{1213415012[label=" Rules "]} -> {1940447180[label=" Rule "]}
+{1213415012[label=" Rules "]} -> {245565335[label=" Rules "]}
+{1811075214[label=" AxiomTag "]} -> {2121744517[label=" eps "]}
+{1588970020[label=" NONTERMINAL "]} -> {1066376662[label=" S` "][shape = box]}
+{1407343478[label=" Alternatives "]} -> {183264084[label=" Alternative "]}
+{1407343478[label=" Alternatives "]} -> {476402209[label=" Alternatives "]}
+{183264084[label=" Alternative "]} -> {1490180672[label=" LP "]}
+{183264084[label=" Alternative "]} -> {460332449[label=" Symbols "]}
+{183264084[label=" Alternative "]} -> {1919892312[label=" RP "]}
+{476402209[label=" Alternatives "]} -> {1143839598[label=" Alternative "]}
+{476402209[label=" Alternatives "]} -> {250075633[label=" Alternatives "]}
+{1490180672[label=" LP "]} -> {358699161[label=" ( "][shape = box]}
+{460332449[label=" Symbols "]} -> {517938326[label=" Symbol "]}
+{460332449[label=" Symbols "]} -> {914424520[label=" Symbols "]}
+{1919892312[label=" RP "]} -> {110718392[label=" ) "][shape = box]}
+{517938326[label=" Symbol "]} -> {425918570[label=" NONTERMINAL "]}
+{914424520[label=" Symbols "]} -> {2143192188[label=" Symbol "]}
+{914424520[label=" Symbols "]} -> {1100439041[label=" Symbols "]}
+{425918570[label=" NONTERMINAL "]} -> {204349222[label=" S "][shape = box]}
+{2143192188[label=" Symbol "]} -> {231685785[label=" NONTERMINAL "]}
+{1100439041[label=" Symbols "]} -> {114935352[label=" eps "]}
+{231685785[label=" NONTERMINAL "]} -> {2110121908[label=" S` "][shape = box]}
+{1143839598[label=" Alternative "]} -> {32374789[label=" LP "]}
+{1143839598[label=" Alternative "]} -> {1973538135[label=" Symbols "]}
+{1143839598[label=" Alternative "]} -> {1023487453[label=" RP "]}
+{250075633[label=" Alternatives "]} -> {1865127310[label=" eps "]}
+{32374789[label=" LP "]} -> {515132998[label=" ( "][shape = box]}
+{1973538135[label=" Symbols "]} -> {1694819250[label=" eps "]}
+{1023487453[label=" RP "]} -> {1365202186[label=" ) "][shape = box]}
+{1940447180[label=" Rule "]} -> {1651191114[label=" AxiomTag "]}
+{1940447180[label=" Rule "]} -> {1586600255[label=" NONTERMINAL "]}
+{1940447180[label=" Rule "]} -> {474675244[label=" Alternatives "]}
+{245565335[label=" Rules "]} -> {932583850[label=" eps "]}
+{1651191114[label=" AxiomTag "]} -> {212628335[label=" eps "]}
+{1586600255[label=" NONTERMINAL "]} -> {1579572132[label=" S "][shape = box]}
+{474675244[label=" Alternatives "]} -> {359023572[label=" Alternative "]}
+{474675244[label=" Alternatives "]} -> {305808283[label=" Alternatives "]}
+{359023572[label=" Alternative "]} -> {2111991224[label=" LP "]}
+{359023572[label=" Alternative "]} -> {292938459[label=" Symbols "]}
+{359023572[label=" Alternative "]} -> {917142466[label=" RP "]}
+{305808283[label=" Alternatives "]} -> {1993134103[label=" Alternative "]}
+{305808283[label=" Alternatives "]} -> {405662939[label=" Alternatives "]}
+{2111991224[label=" LP "]} -> {653305407[label=" ( "][shape = box]}
+{292938459[label=" Symbols "]} -> {1130478920[label=" Symbol "]}
+{292938459[label=" Symbols "]} -> {1404928347[label=" Symbols "]}
+{917142466[label=" RP "]} -> {604107971[label=" ) "][shape = box]}
+{1130478920[label=" Symbol "]} -> {123961122[label=" TERMINAL "]}
+{1404928347[label=" Symbols "]} -> {1227229563[label=" eps "]}
+{123961122[label=" TERMINAL "]} -> {1982791261[label="\"T\""][shape = box]}
+{1993134103[label=" Alternative "]} -> {1562557367[label=" LP "]}
+{1993134103[label=" Alternative "]} -> {1101288798[label=" Symbols "]}
+{1993134103[label=" Alternative "]} -> {942731712[label=" RP "]}
+{405662939[label=" Alternatives "]} -> {971848845[label=" eps "]}
+{1562557367[label=" LP "]} -> {1910163204[label=" ( "][shape = box]}
+{1101288798[label=" Symbols "]} -> {305623748[label=" Symbol "]}
+{1101288798[label=" Symbols "]} -> {758529971[label=" Symbols "]}
+{942731712[label=" RP "]} -> {2104457164[label=" ) "][shape = box]}
+{305623748[label=" Symbol "]} -> {1521118594[label=" TERMINAL "]}
+{758529971[label=" Symbols "]} -> {1940030785[label=" eps "]}
+{1521118594[label=" TERMINAL "]} -> {1869997857[label="\"N\""][shape = box]}
+}

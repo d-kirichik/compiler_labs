@@ -1,0 +1,57 @@
+Spec := Rules
+Rules := Rule Rules | eps
+Rule := AxiomTag NONTERMINAL Alternatives
+AxiomTag := TAG | eps
+Alternatives := Alternative Alternatives | eps
+Alternative := LP Symbols RP
+Symbols := Symbol Symbols | eps
+Symbol := TERMINAL | NONTERMINAL
+__________________________
+
+* S (R`)
+R` (R R`) ()
+R (T "N" A`)
+T ("*") ()
+A` (A A`) ()
+A ("(" S` ")")
+S` (S S`) ()
+S ("T") ("N")
+_______________________________________________
+
+NONTERMINAL [A-Z]`?
+LP "("
+RP ")"
+TERMINAL \".\"
+TAG \\*
+__________________________
+
+FIRST (Spec) = {TAG, NONTERMINAL, eps}
+FIRST (Rules) = {TAG, NONTERMINAL, eps}
+FIRST (Rule) = {TAG, NONTERMINAL}
+FIRST (AxiomTag) = {TAG, eps}
+FIRST (Alternatives) = {LP, eps}
+FIRST (Alternative) = {LP}
+FIRST (Symbols) = {TERMINAL, NONTERMINAL, eps}
+FIRST (Symbol) = {TERMINAL, NONTERMINAL}
+___________________________
+
+FOLLOW (Spec) = {$}
+FOLLOW (Rules) = {$}
+FOLLOW (Rule) = {TAG, NONTERMINAL, $}
+FOLLOW (AxiomTag) = {NONTERMINAL}
+FOLLOW (Alternatives) = {TAG, NONTERMINAL, $}
+FOLLOW (Alternative) = {LP, TAG, NONTERMINAL, $}
+FOLLOW (Symbols) = {RP}
+FOLLOW (Symbol) = {TERMINAL, NONTERMINAL, RP}
+___________________________
+Таблица:
+
+                      NONTERMINAL                     LP                  RP                 TERMINAL                 TAG                           $
+Spec                     Rules                        err                 err                  err                   Rules                        Rules
+Rules                  Rule Rules                     err                 err                  err                 Rule Rules                      eps
+Rule         AxiomTag NONTERMINAL Alternatives        err                 err                  err         AxiomTag NONTERMINAL Alternatives       err
+AxiomTag                  eps                         err                 err                  err                    TAG                          err
+Alternatives              eps              Alternative Alternatives       err                  err                    eps                          eps
+Alternative               err                    LP Symbols RP            err                  err                    err                          err
+Symbols              Symbol Symbols                   err                 eps             Symbol Symbols              err                          err
+Symbol                NONTERMINAL                     err                 err                TERMINAL                 err                          err
